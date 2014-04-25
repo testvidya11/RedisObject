@@ -7,8 +7,3 @@ rvm:
   
 env:
   - "TEST_DB=14"
-before_script:
-  - mkdir -p shippable/testresults
-# write the rspec tests to the output dir
-script:
-  - rspec spec/base_spec.rb -o shippable/testresults/results.xml
