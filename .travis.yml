@@ -4,6 +4,5 @@ services:
   - redis-server
 rvm:
   - 1.9.3
-  
 env:
   - "TEST_DB=14"
